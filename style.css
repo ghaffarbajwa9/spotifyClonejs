@@ -41,7 +41,7 @@ nav ul li{
     width: 70%;
     margin: 23px auto;
     border-radius: 12px;
-    background-image: url('/bg.jpg');
+    background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-position: 100%;
 }
