@@ -1,6 +1,6 @@
 //variables
 let songIndex = 0;
-let audioElement = new Audio('/songs/1.mp3');
+let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -8,10 +8,10 @@ let masterSongName = document.getElementById('masterSongName');
 let songDuration = document.getElementsByClassName('timestamp');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
-    {songName: "ary logo tumhara kya hai", filePath: "/songs/1.mp3", coverPath: "/covers/cover1.jpg"},
-    {songName: "jab sy tuny mujy deewana", filePath: "/songs/2.mp3", coverPath: "/covers/cover1.jpg"},
-    {songName: "ye achi pardadari hai", filePath: "/songs/3.mp3", coverPath: "/covers/cover1.jpg"},
-    {songName: "yar ko hum ny", filePath: "/songs/4.mp3", coverPath: "/covers/cover1.jpg"}
+    {songName: "ary logo tumhara kya hai", filePath: "songs/1.mp3", coverPath: "covers/cover1.jpg"},
+    {songName: "jab sy tuny mujy deewana", filePath: "songs/2.mp3", coverPath: "covers/cover1.jpg"},
+    {songName: "ye achi pardadari hai", filePath: "songs/3.mp3", coverPath: "covers/cover1.jpg"},
+    {songName: "yar ko hum ny", filePath: "songs/4.mp3", coverPath: "covers/cover1.jpg"}
 ]
 songItems.forEach((element, i)=>{
     element.getElementsByTagName('img')[0].src = songs[i].coverPath;
