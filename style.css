@@ -43,6 +43,7 @@ nav ul li{
     border-radius: 12px;
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
+    background-size:100%;
     background-position: 100%;
 }
 .bottom{
