@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           <li class="brand">
+            <img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best of NCS - No Copyright Sounds <b</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+               <img src="cover1.jpg" alt="1"> 
+               <span class="songName">Let me Love You</span>
+               <span class="sognListplay">
+                <span class="timestamp"> 05:34  <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span>
+               </span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1"> 
+                <span class="songName">Let me Love You</span>
+                <span class="sognListplay">
+                 <span class="timestamp"> 05:34  <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </span>
+             </div>
+             <div class="songItem">
+                <img src="cover1.jpg" alt="1"> 
+                <span class="songName">Let me Love You</span>
+                <span class="sognListplay">
+                 <span class="timestamp"> 05:34  <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </span>
+             </div>
+             <div class="songItem">
+                <img src="cover1.jpg" alt="1"> 
+                <span class="songName">Let me Love You</span>
+                <span class="sognListplay">
+                 <span class="timestamp"> 05:34  <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </span>
+             </div>
+             
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+        <img src="playing.webp" id="gif"   width="42px" alt="" srcset=""> <span id="masterSongName"></span>      
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cf4c01d0af.js" crossorigin="anonymous"></script>
+</body>
+</html>
